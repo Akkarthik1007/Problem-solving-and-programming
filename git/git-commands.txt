@@ -1,0 +1,72 @@
+    1  pwd
+    2  ls
+    3  cd Desktop/
+    4  pwd 
+    5  cd Problem solving and programming
+    6  mkdir git
+    7  cd psap
+    8  mkdir git
+    9  cd 
+   10  cd Desktop/
+   11  ls
+   12  mv psap/
+   13  ls
+   14  cd Desktop/
+   15  ls
+   16  mv Pro
+   17  ls
+   18  cd ProblemSolvingAndProgramming
+   19  ls
+   20  cd
+   21  cd Desktop
+   22  ls
+   23  cd ProblemSolvingAndProgramming
+   24  ls
+   25  cd git/
+   26  git --version
+   27  git --config
+   28  git config --list
+   29  git config user.name
+   30  git config --global user.name "Akkkarthik1007"
+   31  git config --global user.name "Akkarthik1007"
+   32  git config user.name
+   33  git 
+   34  git config --global user.email Karthikaisola6440@gmail.com
+   35  git config user.email
+   36  touch file1.txt
+   37  ls
+   38  git init
+   39  git status
+   40  git add file1.txt
+   41  git status
+   42  git commit -m "first file commit"
+   43  git status
+   44  echo "data in line 1" > file1.txt
+   45  cat file1.txt
+   46  git status
+   47  git add file1.txt
+   48  git status
+   49  git commit -m "file1 second commit"
+   50  git status
+   51  git log
+   52  touch file{2..10}.txt
+   53  ls
+   54  touch file{11..100}.txt
+   55  ls
+   56  rm file{11..100}.txt
+   57  ls
+   58  git status
+   59  git add file{2..10}.txt
+   60  git status
+   61  git reset HEAD file{2..10}.txt
+   62  ls
+   63  git status
+   64  git add file{2..10}.txt
+   65  git status
+   66  git commit -m "added 9 new files"
+   67  git status
+   68  git log
+   69  git clone https://github.com/Akash-Sinha/Gitam-Skill-Enhancement-May-2019/tree/master/PythonProgramming/NotebookTemplate
+   70  git clone https://github.com/Akash-Sinha/Gitam-Skill-Enhancement-May-2019
+   71  history 100
+   72  history 100 > git-commands.txt
